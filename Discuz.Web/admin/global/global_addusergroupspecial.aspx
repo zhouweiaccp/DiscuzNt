@@ -35,7 +35,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">用户组名称</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox ID="groupTitle" runat="server" CanBeNull="必填" RequiredFieldType="暂无校验" Width="180" MaxLength="50"></cc1:TextBox>
+			 <cc1:textbox ID="groupTitle" runat="server" CanBeNull="必填" RequiredFieldType="暂无校验" Width="180" MaxLength="50"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
@@ -49,7 +49,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">星星数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="stars" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:TextBox>
+			<cc1:textbox ID="stars" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:textbox>
 			<asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="SERVER" ControlToValidate="stars"
 				ErrorMessage="请输入正整数或者零" ValidationExpression="^[0-9]*$">
 			</asp:RegularExpressionValidator>
@@ -59,7 +59,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">阅读权限</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="readaccess" runat="server" CanBeNull="可为空" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4" ></cc1:TextBox>
+			<cc1:textbox ID="readaccess" runat="server" CanBeNull="可为空" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4" ></cc1:textbox>
 			<asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="SERVER" ControlToValidate="readaccess"
 				ErrorMessage="请输入整数" ValidationExpression="^[-]?\d+\d*$">
 			</asp:RegularExpressionValidator>
@@ -69,7 +69,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">短消息最多条数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="maxpmnum" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:TextBox>
+			<cc1:textbox ID="maxpmnum" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:textbox>
 			<asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="SERVER" ControlToValidate="maxpmnum"
 				ErrorMessage="请输入正整数或者零" ValidationExpression="^[0-9]*$">
 			</asp:RegularExpressionValidator>
@@ -79,7 +79,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">签名最多字节</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="maxsigsize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:TextBox>
+			<cc1:textbox ID="maxsigsize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:textbox>
 			<asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="SERVER" ControlToValidate="maxsigsize"
 				ErrorMessage="请输入正整数或者零" ValidationExpression="^[0-9]*$">
 			</asp:RegularExpressionValidator>
@@ -89,7 +89,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">主题(附件)最高售价</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="maxprice" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:TextBox>
+			<cc1:textbox ID="maxprice" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:textbox>
 			<asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="SERVER" ControlToValidate="maxprice"
 				ErrorMessage="请输入正整数或者零" ValidationExpression="^[0-9]*$">
 			</asp:RegularExpressionValidator>
@@ -99,7 +99,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">论坛每天允许上传附件总字节数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="maxsizeperday" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10" MaxLength="9"></cc1:TextBox>(单位:字节)
+			<cc1:textbox ID="maxsizeperday" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10" MaxLength="9"></cc1:textbox>(单位:字节)
 			<select onchange="document.getElementById('TabControl1_tabPage51_maxsizeperday').value=this.value">
 				<option value="">请选择</option>
 				<option value="51200">50K</option>
@@ -138,7 +138,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">上传单个附件允许的最大字节数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="maxattachsize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10" MaxLength="9"></cc1:TextBox>(单位:字节)
+			<cc1:textbox ID="maxattachsize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10" MaxLength="9"></cc1:textbox>(单位:字节)
 			<select onchange="document.getElementById('TabControl1_tabPage51_maxattachsize').value=this.value">
 				<option value="">请选择</option>
 				<option value="51200">50K</option>
@@ -165,7 +165,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">相册空间总字节数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="maxspacephotosize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10" MaxLength="9"></cc1:TextBox>(单位:字节)
+			<cc1:textbox ID="maxspacephotosize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10" MaxLength="9"></cc1:textbox>(单位:字节)
 			<select onchange="document.getElementById('TabControl1_tabPage51_maxspacephotosize').value=this.value">
 				<option value="">请选择</option>
 				<option value="51200">50K</option>
@@ -206,7 +206,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">个人空间附件总字节数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="maxspaceattachsize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10" MaxLength="9"></cc1:TextBox>(单位:字节)
+			<cc1:textbox ID="maxspaceattachsize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10" MaxLength="9"></cc1:textbox>(单位:字节)
 			<select onchange="document.getElementById('TabControl1_tabPage51_maxspaceattachsize').value=this.value">
 				<option value="">请选择</option>
 				<option value="51200">50K</option>
@@ -264,7 +264,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">用户组头像</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="groupavatar" runat="server" RequiredFieldType="暂无校验" Width="80%"></cc1:TextBox>
+			<cc1:textbox ID="groupavatar" runat="server" RequiredFieldType="暂无校验" Width="80%"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>

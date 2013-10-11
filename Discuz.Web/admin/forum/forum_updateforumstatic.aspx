@@ -121,7 +121,7 @@ function getforumdata(pageurl)
 				<td style="width:260px">重建论坛全部帖数:</td>
 				<td style="width:260px">
 					<!--每个循环更新数量:&nbsp;&nbsp;&nbsp;&nbsp;
-					<cc1:TextBox id="pertask1" runat="server" Text="15" RequiredFieldType="暂无校验" size="5"></cc1:TextBox>-->
+					<cc1:textbox id="pertask1" runat="server" Text="15" RequiredFieldType="暂无校验" size="5"></cc1:textbox>-->
 				</td>
 				<td>
 					<span id="ReSetFourmTopicAPost_id"  onmouseover="showhintinfo(this,0,0,'','重建论坛全部帖数','50','up');" onmouseout="hidehintinfo();">
@@ -146,7 +146,7 @@ function getforumdata(pageurl)
 				<td>重建全部用户精华帖数:</td>
 				<td>
 					<!--每个循环更新数量:&nbsp;&nbsp;&nbsp;&nbsp;
-					<cc1:TextBox id="pertask2" runat="server" Text="1000" RequiredFieldType="暂无校验" size="5"></cc1:TextBox>-->
+					<cc1:textbox id="pertask2" runat="server" Text="1000" RequiredFieldType="暂无校验" size="5"></cc1:textbox>-->
 				</td>
 				<td>
 					<span id="ReSetUserDigestPosts_id"  onmouseover="showhintinfo(this,0,0,'','重建全部用户精华帖数','50','up');" onmouseout="hidehintinfo();">
@@ -162,7 +162,7 @@ function getforumdata(pageurl)
 				<td>重建全部用户发帖数:</td>
 				<td>
 					每个循环更新的分表个数:&nbsp;&nbsp;&nbsp;&nbsp;
-					<cc1:TextBox id="pertask3" runat="server" Text="1" RequiredFieldType="暂无校验" size="5"></cc1:TextBox>
+					<cc1:textbox id="pertask3" runat="server" Text="1" RequiredFieldType="暂无校验" size="5"></cc1:textbox>
 				</td>
 				<td>
 					<span id="ReSetUserPosts_id"  onmouseover="showhintinfo(this,0,0,'','重建全部用户发帖数','50','up');" onmouseout="hidehintinfo();">
@@ -178,7 +178,7 @@ function getforumdata(pageurl)
 				<td>重建全部主题的最后回复等信息:</td>
 				<td>
 					每个循环更新的分表个数:&nbsp;&nbsp;
-					<cc1:TextBox id="pertask4" runat="server" Text="1" RequiredFieldType="暂无校验" size="5"></cc1:TextBox>
+					<cc1:textbox id="pertask4" runat="server" Text="1" RequiredFieldType="暂无校验" size="5"></cc1:textbox>
 				</td>
 				<td>
 					<span id="ReSetTopicPosts_id"  onmouseover="showhintinfo(this,0,0,'','重建全部主题最后回复等信息','50','up');" onmouseout="hidehintinfo();">
@@ -203,9 +203,9 @@ function getforumdata(pageurl)
 					<td style="width:260px">重建指定论坛区间帖数:</td>
 					<td style="width:260px">
 						开始版块FID:
-						<cc1:TextBox id="startfid" runat="server" Text="1" RequiredFieldType="数据校验" size="10"></cc1:TextBox><br />
+						<cc1:textbox id="startfid" runat="server" Text="1" RequiredFieldType="数据校验" size="10"></cc1:textbox><br />
 						结束版块FID:
-						<cc1:TextBox id="endfid" runat="server" Text="20" RequiredFieldType="数据校验" size="10"></cc1:TextBox>
+						<cc1:textbox id="endfid" runat="server" Text="20" RequiredFieldType="数据校验" size="10"></cc1:textbox>
 					</td>
 					<td>
 						<span id="ReSetFourmTopicAPost_StartEnd_id"  onmouseover="showhintinfo(this,0,0,'','重建指定论坛区间帖数','50','up');" onmouseout="hidehintinfo();">
@@ -222,9 +222,9 @@ function getforumdata(pageurl)
 					<td>重建指定用户区间精华帖数:</td>
 					<td>
 						开始用户UID:
-						<cc1:TextBox id="startuid_digest" runat="server" Text="1" RequiredFieldType="暂无校验" size="10"></cc1:TextBox><br />
+						<cc1:textbox id="startuid_digest" runat="server" Text="1" RequiredFieldType="暂无校验" size="10"></cc1:textbox><br />
 						结束用户UID:
-						<cc1:TextBox id="enduid_digest" runat="server" Text="20" RequiredFieldType="暂无校验" size="10"></cc1:TextBox>
+						<cc1:textbox id="enduid_digest" runat="server" Text="20" RequiredFieldType="暂无校验" size="10"></cc1:textbox>
 					</td>
 					<td>
 						<span id="ReSetUserDigestPosts_StartEnd_id"  onmouseover="showhintinfo(this,0,0,'','重建指定用户区间精华帖数','50','up');" onmouseout="hidehintinfo();">
@@ -241,9 +241,9 @@ function getforumdata(pageurl)
 					<td>重建指定用户区间发帖数:</td>
 					<td>
 						开始用户UID:
-						<cc1:TextBox id="startuid_post" runat="server" Text="1" RequiredFieldType="暂无校验" size="10"></cc1:TextBox><br />
+						<cc1:textbox id="startuid_post" runat="server" Text="1" RequiredFieldType="暂无校验" size="10"></cc1:textbox><br />
 						结束用户UID:
-						<cc1:TextBox id="enduid_post" runat="server" Text="20" RequiredFieldType="暂无校验" size="10"></cc1:TextBox>
+						<cc1:textbox id="enduid_post" runat="server" Text="20" RequiredFieldType="暂无校验" size="10"></cc1:textbox>
 					</td>
 					<td>
 						<span id="ReSetUserPosts_StartEnd_id"  onmouseover="showhintinfo(this,0,0,'','重建指定用户区间发帖数','50','up');" onmouseout="hidehintinfo();">
@@ -260,9 +260,9 @@ function getforumdata(pageurl)
 					<td>重建主题回复信息:</td>
 					<td>
 						从分表:
-						<cc1:TextBox id="starttid" runat="server" Text="" RequiredFieldType="暂无校验" size="10"></cc1:TextBox><br />
+						<cc1:textbox id="starttid" runat="server" Text="" RequiredFieldType="暂无校验" size="10"></cc1:textbox><br />
 						到分表:
-						<cc1:TextBox id="endtid" runat="server" Text="" RequiredFieldType="暂无校验" size="10"></cc1:TextBox>
+						<cc1:textbox id="endtid" runat="server" Text="" RequiredFieldType="暂无校验" size="10"></cc1:textbox>
 					</td>
 					<td>
 						<span id="ReSetTopicPosts_StartEnd_id"  onmouseover="showhintinfo(this,0,0,'','重建指定主题区间帖数','50','up');" onmouseout="hidehintinfo();">

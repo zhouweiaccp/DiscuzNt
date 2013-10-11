@@ -1,0 +1,12 @@
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Cache\bin\Debug\Discuz.Cache.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Cache\bin\Debug\Discuz.Cache.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Cache\bin\Debug\Discuz.Common.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Cache\bin\Debug\Discuz.Config.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Cache\bin\Debug\Discuz.Entity.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Cache\bin\Debug\Newtonsoft.Json.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Cache\bin\Debug\Discuz.Common.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Cache\bin\Debug\Discuz.Config.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Cache\bin\Debug\Discuz.Entity.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Cache\obj\Debug\Discuz.Cache.csprojResolveAssemblyReference.cache
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Cache\obj\Debug\Discuz.Cache.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Cache\obj\Debug\Discuz.Cache.pdb

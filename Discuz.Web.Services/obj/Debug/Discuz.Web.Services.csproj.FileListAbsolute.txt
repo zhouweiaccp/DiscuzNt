@@ -1,0 +1,5 @@
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\bin\Discuz.Web.Services.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\bin\Discuz.Web.Services.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web.Services\obj\Debug\Discuz.Web.Services.csprojResolveAssemblyReference.cache
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web.Services\obj\Debug\Discuz.Web.Services.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web.Services\obj\Debug\Discuz.Web.Services.pdb

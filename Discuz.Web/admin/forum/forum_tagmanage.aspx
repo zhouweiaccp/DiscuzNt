@@ -25,14 +25,14 @@ function Check(form)
 	<tr><td class="item_title" colspan="2">标签名称</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="tagname" runat="server" Width="150px" onBlur></cc1:TextBox>
+			<cc1:textbox id="tagname" runat="server" Width="150px" onBlur></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
 	<tr><td class="item_title" colspan="2">主题数介于</td></tr>
 	<tr>
 		<td class="vtop" colspan="2">
-			<cc1:TextBox id="txtfrom" runat="server" Width="150px"></cc1:TextBox>--<cc1:TextBox id="txtend" runat="server" Width="150px"></cc1:TextBox>
+			<cc1:textbox id="txtfrom" runat="server" Width="150px"></cc1:textbox>--<cc1:textbox id="txtend" runat="server" Width="150px"></cc1:textbox>
 		</td>
 	</tr>
 	<tr><td class="item_title" colspan="2"></td></tr>

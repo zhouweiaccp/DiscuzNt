@@ -29,21 +29,21 @@
     <tr><td class="item_title" colspan="2">编辑帖子时间限制</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="edittimelimit" runat="server" Text="5" RequiredFieldType="数据校验" CanBeNull="必填" Size="7" MaxLength="7"></cc1:TextBox>(单位:分钟)
+			 <cc1:textbox id="edittimelimit" runat="server" Text="5" RequiredFieldType="数据校验" CanBeNull="必填" Size="7" MaxLength="7"></cc1:textbox>(单位:分钟)
 		</td>
 		<td class="vtop">帖子作者发帖后超过此时间限制将不能再编辑帖, 版主和管理员不受此限制, 0 为不限制, -1为不允许帖子作者编辑</td>
 	</tr>
     <tr><td class="item_title" colspan="2">删除帖子时间限制</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="deletetimelimit" runat="server" Text="5" RequiredFieldType="数据校验" CanBeNull="必填" Size="7" MaxLength="7"></cc1:TextBox>(单位:分钟)
+			 <cc1:textbox id="deletetimelimit" runat="server" Text="5" RequiredFieldType="数据校验" CanBeNull="必填" Size="7" MaxLength="7"></cc1:textbox>(单位:分钟)
 		</td>
 		<td class="vtop">帖子作者发帖后超过此时间限制将不能再删除, 版主和管理员不受此限制, 0 为不限制, -1为不允许帖子作者删除</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">最大允许的上传附件数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox ID="maxattachments" runat="server" CanBeNull="必填" HintInfo="最大允许的上传附件数" HintTitle="提示" MaxLength="5" RequiredFieldType="数据校验" Size="6" />
+			 <cc1:textbox ID="maxattachments" runat="server" CanBeNull="必填" HintInfo="最大允许的上传附件数" HintTitle="提示" MaxLength="5" RequiredFieldType="数据校验" Size="6" />
 			<asp:RegularExpressionValidator id="RegularExpressionValidator2" runat="server" ControlToValidate="maxattachments" ErrorMessage="请输入正整数或者零" ValidationExpression="^[0-9]*$">
 			</asp:RegularExpressionValidator>
 		</td>
@@ -52,7 +52,7 @@
 	<tr><td class="item_title" colspan="2">评分时间限制</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="karmaratelimit" runat="server" Text="10" RequiredFieldType="数据校验"  CanBeNull="必填" Size="5" MaxLength="4"></cc1:TextBox>(单位:小时)
+			 <cc1:textbox id="karmaratelimit" runat="server" Text="10" RequiredFieldType="数据校验"  CanBeNull="必填" Size="5" MaxLength="4"></cc1:textbox>(单位:小时)
 			 <asp:RegularExpressionValidator id="RegularExpressionValidator3" runat="server" ControlToValidate="karmaratelimit" ErrorMessage="请输入正整数或者零" ValidationExpression="^[0-9]*$">
              </asp:RegularExpressionValidator>
 		</td>
@@ -61,7 +61,7 @@
 	<tr><td class="item_title" colspan="2">收藏夹容量</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="maxfavorites" runat="server" CanBeNull="必填"  RequiredFieldType="数据校验" Text="" Size="8" MaxLength="7"></cc1:TextBox>
+			<cc1:textbox id="maxfavorites" runat="server" CanBeNull="必填"  RequiredFieldType="数据校验" Text="" Size="8" MaxLength="7"></cc1:textbox>
 			<asp:RegularExpressionValidator id="RegularExpressionValidator4" runat="server" ControlToValidate="maxfavorites" 
 			ErrorMessage="请输入正整数或者零" ValidationExpression="^[0-9]*$">
 			</asp:RegularExpressionValidator>
@@ -71,7 +71,7 @@
 	<tr><td class="item_title" colspan="2">投票最大选项数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="maxpolloptions" runat="server" CanBeNull="必填"  RequiredFieldType="数据校验" Text=""  Size="8" MaxLength="7"></cc1:TextBox>
+			 <cc1:textbox id="maxpolloptions" runat="server" CanBeNull="必填"  RequiredFieldType="数据校验" Text=""  Size="8" MaxLength="7"></cc1:textbox>
 			<asp:RegularExpressionValidator id="RegularExpressionValidator1" runat="server" ControlToValidate="maxpolloptions" ErrorMessage="请输入正整数或者零" ValidationExpression="^[0-9]*$">
 			</asp:RegularExpressionValidator>
 		</td>
@@ -80,7 +80,7 @@
 	<tr><td class="item_title" colspan="2">帖子最小字数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="minpostsize" runat="server" CanBeNull="必填"  RequiredFieldType="数据校验" Text=""  Size="8"  MaxLength="7"></cc1:TextBox>(单位:字节)
+			<cc1:textbox id="minpostsize" runat="server" CanBeNull="必填"  RequiredFieldType="数据校验" Text=""  Size="8"  MaxLength="7"></cc1:textbox>(单位:字节)
 			<select onchange="document.getElementById('minpostsize').value=this.value">
 				<option value="">请选择</option>
 				<option value="51200">50K</option>
@@ -106,7 +106,7 @@
 	<tr><td class="item_title" colspan="2">帖子最大字数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="maxpostsize" runat="server" CanBeNull="必填"  RequiredFieldType="数据校验" Text=""  Size="8" MaxLength="7"></cc1:TextBox>(单位:字节)
+			<cc1:textbox id="maxpostsize" runat="server" CanBeNull="必填"  RequiredFieldType="数据校验" Text=""  Size="8" MaxLength="7"></cc1:textbox>(单位:字节)
 			<select onchange="document.getElementById('maxpostsize').value=this.value">
 				<option value="">请选择</option>
 				<option value="51200">50K</option>

@@ -26,7 +26,7 @@
 	<tr><td class="item_title">附件尺寸小于</td><td class="item_title">附件尺寸大于</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="filesizemin" runat="server" RequiredFieldType="数据校验" Size="10"></cc1:TextBox>(单位:字节)
+			<cc1:textbox id="filesizemin" runat="server" RequiredFieldType="数据校验" Size="10"></cc1:textbox>(单位:字节)
 			<select onchange="document.getElementById('filesizemin').value=this.value">
 				<option value="">请选择</option>
 				<option value="51200">50K</option>
@@ -48,7 +48,7 @@
 			</select>
 		</td>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="filesizemax" runat="server" RequiredFieldType="数据校验" Size="10" />(单位:字节)
+			<cc1:textbox ID="filesizemax" runat="server" RequiredFieldType="数据校验" Size="10" />(单位:字节)
 			<select onchange="document.getElementById('filesizemax').value=this.value">
 				<option value="">请选择</option>
 				<option value="51200">50K</option>
@@ -73,32 +73,32 @@
 	<tr><td class="item_title">被下载次数小于</td><td class="item_title">被下载次数大于</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="downloadsmin" runat="server" Size="6" RequiredFieldType="数据校验"></cc1:TextBox>
+			 <cc1:textbox id="downloadsmin" runat="server" Size="6" RequiredFieldType="数据校验"></cc1:textbox>
 		</td>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="downloadsmax" runat="server" RequiredFieldType="数据校验" Size="6" />
+			 <cc1:textbox id="downloadsmax" runat="server" RequiredFieldType="数据校验" Size="6" />
 		</td>
 	</tr>
 	<tr><td class="item_title">存储文件名</td><td class="item_title">发表于多少天前</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="filename" runat="server" RequiredFieldType="暂无校验" Width="200"></cc1:TextBox>
+			<cc1:textbox id="filename" runat="server" RequiredFieldType="暂无校验" Width="200"></cc1:textbox>
 		</td>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="postdatetime" runat="server" Size="4" RequiredFieldType="数据校验"></cc1:TextBox>
+			 <cc1:textbox id="postdatetime" runat="server" Size="4" RequiredFieldType="数据校验"></cc1:textbox>
 		</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">作者</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="poster" runat="server" RequiredFieldType="暂无校验" Width="100"></cc1:TextBox>
+			<cc1:textbox id="poster" runat="server" RequiredFieldType="暂无校验" Width="100"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
 	<tr><td class="item_title" colspan="2">描述关键字</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="description" runat="server" RequiredFieldType="暂无校验" Width="200"></cc1:TextBox>
+			 <cc1:textbox id="description" runat="server" RequiredFieldType="暂无校验" Width="200"></cc1:textbox>
 		</td>
 		<td class="vtop">多关键字中间请用半角逗号 "," 分割</td>
 	</tr>

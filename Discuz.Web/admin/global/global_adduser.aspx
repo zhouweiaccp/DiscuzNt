@@ -51,7 +51,7 @@ return true;
 	<tr><td class="item_title" colspan="2">密码</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="password" runat="server" CanBeNull="必填" MaxLength="32" RequiredFieldType="暂无校验" Size="30"></cc1:TextBox>
+			<cc1:textbox ID="password" runat="server" CanBeNull="必填" MaxLength="32" RequiredFieldType="暂无校验" Size="30"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>

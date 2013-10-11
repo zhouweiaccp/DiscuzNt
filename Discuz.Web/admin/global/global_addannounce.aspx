@@ -39,28 +39,28 @@
 	<tr><td class="item_title" colspan="2">显示顺序</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox ID="displayorder" runat="server" RequiredFieldType="数据校验" CanBeNull="必填" Text="0" MaxLength="6" Size="3"></cc1:TextBox>
+			 <cc1:textbox ID="displayorder" runat="server" RequiredFieldType="数据校验" CanBeNull="必填" Text="0" MaxLength="6" Size="3"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
 	<tr><td class="item_title" colspan="2">公告标题</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			  <cc1:TextBox ID="title" runat="server" CanBeNull="必填" RequiredFieldType="暂无校验" MaxLength="249" Size="60"></cc1:TextBox>
+			  <cc1:textbox ID="title" runat="server" CanBeNull="必填" RequiredFieldType="暂无校验" MaxLength="249" Size="60"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
 	<tr><td class="item_title" colspan="2">起始时间</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			  <cc1:TextBox ID="starttime" runat="server" CanBeNull="必填" RequiredFieldType="日期时间" Width="200"></cc1:TextBox>
+			  <cc1:textbox ID="starttime" runat="server" CanBeNull="必填" RequiredFieldType="日期时间" Width="200"></cc1:textbox>
 		</td>
 		<td class="vtop">格式:2005-5-5 13:22:02</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">结束时间</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox ID="endtime" runat="server" CanBeNull="必填" RequiredFieldType="日期时间" Width="200"></cc1:TextBox>
+			 <cc1:textbox ID="endtime" runat="server" CanBeNull="必填" RequiredFieldType="日期时间" Width="200"></cc1:textbox>
 		</td>
 		<td class="vtop">格式:2005-5-5 13:22:02</td>
 	</tr>
@@ -75,7 +75,7 @@
 	<tr><td class="item_title" colspan="2">发布者用户名</td></tr>
 	<tr>
 		<td class="vtop" colspan="2">
-			  <cc1:TextBox id="poster" runat="server" RequiredFieldType="暂无校验" CanBeNull="必填" MaxLength="20" Enabled="false"></cc1:TextBox>
+			  <cc1:textbox id="poster" runat="server" RequiredFieldType="暂无校验" CanBeNull="必填" MaxLength="20" Enabled="false"></cc1:textbox>
 		</td>
 	</tr>
 </div>

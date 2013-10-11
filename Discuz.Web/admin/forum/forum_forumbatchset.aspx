@@ -32,7 +32,7 @@
 	<tr><td class="item_title" colspan="2"><input id="setpassword" type="checkbox" checked value="1" name="setpassword" runat="server" />访问本论坛的密码</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="password" runat="server" RequiredFieldType="暂无校验" Width="150px" />
+			<cc1:textbox ID="password" runat="server" RequiredFieldType="暂无校验" Width="150px" />
 		</td>
 		<td class="vtop">留空为不需密码</td>
 	</tr>

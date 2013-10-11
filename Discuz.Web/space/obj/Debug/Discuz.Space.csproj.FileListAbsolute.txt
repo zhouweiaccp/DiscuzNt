@@ -1,0 +1,5 @@
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\bin\Discuz.Space.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\bin\Discuz.Space.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\space\obj\Debug\Discuz.Space.csprojResolveAssemblyReference.cache
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\space\obj\Debug\Discuz.Space.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\space\obj\Debug\Discuz.Space.pdb

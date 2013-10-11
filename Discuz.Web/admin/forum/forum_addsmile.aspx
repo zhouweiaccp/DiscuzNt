@@ -19,14 +19,14 @@
 	<tr><td class="item_title" colspan="2">显示顺序</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="displayorder" runat="server" RequiredFieldType="数据校验" CanBeNull="必填" Text="0" MaxLength="4" Size="4"></cc1:TextBox>
+			<cc1:textbox id="displayorder" runat="server" RequiredFieldType="数据校验" CanBeNull="必填" Text="0" MaxLength="4" Size="4"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
 	<tr><td class="item_title" colspan="2">代码</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="code" runat="server" RequiredFieldType="暂无校验" CanBeNull="必填" MaxLength="30"></cc1:TextBox>
+			<cc1:textbox id="code" runat="server" RequiredFieldType="暂无校验" CanBeNull="必填" MaxLength="30"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>

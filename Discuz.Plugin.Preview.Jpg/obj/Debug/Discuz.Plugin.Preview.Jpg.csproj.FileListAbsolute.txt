@@ -1,0 +1,5 @@
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\bin\Discuz.Plugin.Preview.Jpg.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\bin\Discuz.Plugin.Preview.Jpg.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Preview.Jpg\obj\Debug\Discuz.Plugin.Preview.Jpg.csprojResolveAssemblyReference.cache
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Preview.Jpg\obj\Debug\Discuz.Plugin.Preview.Jpg.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Preview.Jpg\obj\Debug\Discuz.Plugin.Preview.Jpg.pdb

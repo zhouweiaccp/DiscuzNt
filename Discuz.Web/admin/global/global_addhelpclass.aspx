@@ -20,14 +20,14 @@
 	<tr><td class="item_title" colspan="2">帮助标题</td></tr>
 	<tr>
 		<td class="vtop" colspan="2">
-			<cc1:TextBox id="title" runat="server" CanBeNull="必填" RequiredFieldType="暂无校验"  maxlength="249" size="50"></cc1:TextBox>
+			<cc1:textbox id="title" runat="server" CanBeNull="必填" RequiredFieldType="暂无校验"  maxlength="249" size="50"></cc1:textbox>
 		</td>
 	</tr>   			
 	<tbody style="display:none">
 	<tr><td class="item_title" colspan="2">发布者用户名</td></tr>
 	<tr>
 		<td class="vtop" colspan="2">
-			<cc1:TextBox id="poster" runat="server" RequiredFieldType="暂无校验" CanBeNull="必填" MaxLength="20" Enabled="false"></cc1:TextBox>
+			<cc1:textbox id="poster" runat="server" RequiredFieldType="暂无校验" CanBeNull="必填" MaxLength="20" Enabled="false"></cc1:textbox>
 		</td>
 	</tr>
 	</tbody>

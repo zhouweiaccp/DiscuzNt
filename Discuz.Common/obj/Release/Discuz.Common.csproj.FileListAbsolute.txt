@@ -1,0 +1,6 @@
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Common\bin\Release\Discuz.Common.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Common\bin\Release\Discuz.Common.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Common\bin\Release\NVelocity.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Common\obj\Release\Discuz.Common.csprojResolveAssemblyReference.cache
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Common\obj\Release\Discuz.Common.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Common\obj\Release\Discuz.Common.pdb

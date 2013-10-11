@@ -1,0 +1,5 @@
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\bin\Discuz.Data.SqlServer.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\bin\Discuz.Data.SqlServer.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Data.SqlServer\obj\Debug\Discuz.Data.SqlServer.csprojResolveAssemblyReference.cache
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Data.SqlServer\obj\Debug\Discuz.Data.SqlServer.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Data.SqlServer\obj\Debug\Discuz.Data.SqlServer.pdb

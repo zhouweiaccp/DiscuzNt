@@ -1,0 +1,5 @@
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\bin\Discuz.Album.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\bin\Discuz.Album.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Album\obj\Debug\Discuz.Album.csprojResolveAssemblyReference.cache
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Album\obj\Debug\Discuz.Album.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Album\obj\Debug\Discuz.Album.pdb

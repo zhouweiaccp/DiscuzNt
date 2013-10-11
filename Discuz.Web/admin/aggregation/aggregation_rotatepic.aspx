@@ -53,21 +53,21 @@ function Check(form)
 	<tr><td class="item_title" colspan="2">图片路径</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox runat="server" ID="rotaimg" />
+			 <cc1:textbox runat="server" ID="rotaimg" />
 		</td>
 		<td class="vtop"></td>
 	</tr>
 	<tr><td class="item_title" colspan="2">点击链接</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox runat="server" ID="url" />
+			 <cc1:textbox runat="server" ID="url" />
 		</td>
 		<td class="vtop"></td>
 	</tr>
 	<tr><td class="item_title" colspan="2">说明文字</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			  <cc1:TextBox runat="server" ID="titlecontent" />
+			  <cc1:textbox runat="server" ID="titlecontent" />
 		</td>
 		<td class="vtop"></td>
 	</tr>

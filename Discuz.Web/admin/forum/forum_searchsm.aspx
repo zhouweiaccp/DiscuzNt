@@ -81,14 +81,14 @@
 	<tr><td class="item_title" colspan="2">删除多少天以前的短消息</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="postdatetime" runat="server" RequiredFieldType="数据校验" Width="40"></cc1:TextBox>
+			 <cc1:textbox id="postdatetime" runat="server" RequiredFieldType="数据校验" Width="40"></cc1:textbox>
 		</td>
 		<td class="vtop">不限制时间请输入</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">按发信用户名清理</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="msgfromlist" runat="server" RequiredFieldType="暂无校验" Width="200"></cc1:TextBox> &nbsp; 
+			<cc1:textbox id="msgfromlist" runat="server" RequiredFieldType="暂无校验" Width="200"></cc1:textbox> &nbsp; 
 			&nbsp;<input type="checkbox" name="lowerupper" value="1" id="lowerupper" runat="server"> 不区分大小写
 		</td>
 		<td class="vtop">多用户名中间请用半角逗号 "," 分割</td>
@@ -96,14 +96,14 @@
 	<tr><td class="item_title" colspan="2">按关键字搜索主题</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="subject" runat="server" RequiredFieldType="暂无校验" Width="200"></cc1:TextBox>
+			<cc1:textbox id="subject" runat="server" RequiredFieldType="暂无校验" Width="200"></cc1:textbox>
 		</td>
 		<td class="vtop">关键字中间用","分割</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">按关键字搜索全文</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="message" runat="server" RequiredFieldType="暂无校验" Width="200"></cc1:TextBox>
+			 <cc1:textbox id="message" runat="server" RequiredFieldType="暂无校验" Width="200"></cc1:textbox>
 		</td>
 		<td class="vtop">关键字中间用","分割</td>
 	</tr>

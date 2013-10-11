@@ -60,23 +60,23 @@ function Check(form)
 			<tr>
 				<td style="width: 70px;height:35px;">链接文字:</td>
 				<td>
-					<cc1:TextBox runat="server" ID="atext" />
+					<cc1:textbox runat="server" ID="atext" />
 				</td>	
 			</tr>
 			<tr>
 				<td style="height:35px;">单击事件:</td>
 				<td>
-					<cc1:TextBox runat="server" ID="aonclick" IsReplaceInvertedComma="false" />
+					<cc1:textbox runat="server" ID="aonclick" IsReplaceInvertedComma="false" />
 				</td>
 			</tr>
 			<tr>
 				<td style="height:35px;">链接地址:</td>
-				<td><cc1:TextBox runat="server" ID="ahref" /></td>
+				<td><cc1:textbox runat="server" ID="ahref" /></td>
 			</tr>
 			<tr>
 				<td style="height:35px;">目标窗口:</td>
 				<td>
-					<cc1:TextBox runat="server" ID="atarget" Text="_blank" Size="15" />
+					<cc1:textbox runat="server" ID="atarget" Text="_blank" Size="15" />
 					<select onchange="document.getElementById('atarget').value=this.value;setexample();">
 						<option value=""></option>
 						<option value="_blank" selected="selected">新窗口</option>

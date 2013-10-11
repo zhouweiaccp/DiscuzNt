@@ -63,14 +63,14 @@
 	<tr><td class="item_title" colspan="2">标题关键字</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="keyword" runat="server" RequiredFieldType="暂无校验" Width="100"></cc1:TextBox>
+			 <cc1:textbox id="keyword" runat="server" RequiredFieldType="暂无校验" Width="100"></cc1:textbox>
 		</td>
 		<td class="vtop">多关键字中间请用半角逗号"," 分割</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">主题作者</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="poster" runat="server" RequiredFieldType="暂无校验" Width="100"></cc1:TextBox>&nbsp;
+			<cc1:textbox id="poster" runat="server" RequiredFieldType="暂无校验" Width="100"></cc1:textbox>&nbsp;
 			<input id="lowerupper" type="checkbox" value="1" name="cins" runat="server" checked="checked" />不区分大小写
 		</td>
 		<td class="vtop">多用户名中间请用半角逗号 "," 分割</td>

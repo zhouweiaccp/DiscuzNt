@@ -30,56 +30,56 @@ Text="您所编辑的字段必段是在[<a href=../global/global_scoreset.aspx>�
 	<tr><td class="item_title" colspan="2"><asp:Literal id="extcredits1name" runat="server" Text="extcredits1"></asp:Literal></td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="extcredits1" runat="server" RequiredFieldType="数据校验"></cc1:TextBox>
+			<cc1:textbox id="extcredits1" runat="server" RequiredFieldType="数据校验"></cc1:textbox>
 		</td>
 		<td class="vtop">请在相关字段中设置有效的值(正数为增加量字段值,负数为减少量)</td>
 	</tr>
 	<tr><td class="item_title" colspan="2"><asp:Literal id="extcredits2name" runat="server" Text="extcredits2"></asp:Literal></td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="extcredits2" runat="server" RequiredFieldType="数据校验"></cc1:TextBox>
+			<cc1:textbox id="extcredits2" runat="server" RequiredFieldType="数据校验"></cc1:textbox>
 		</td>
 		<td class="vtop">请在相关字段中设置有效的值(正数为增加量字段值,负数为减少量)</td>
 	</tr>
 	<tr><td class="item_title" colspan="2"><asp:Literal id="extcredits3name" runat="server" Text="extcredits3"></asp:Literal></td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="extcredits3" runat="server" Width="64px" RequiredFieldType="数据校验"></cc1:TextBox>
+			<cc1:textbox id="extcredits3" runat="server" Width="64px" RequiredFieldType="数据校验"></cc1:textbox>
 		</td>
 		<td class="vtop">请在相关字段中设置有效的值(正数为增加量字段值,负数为减少量)</td>
 	</tr>
 	<tr><td class="item_title" colspan="2"><asp:Literal id="extcredits4name" runat="server" Text="extcredits4"></asp:Literal></td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="extcredits4" runat="server" Width="64px" RequiredFieldType="数据校验"></cc1:TextBox>
+			<cc1:textbox id="extcredits4" runat="server" Width="64px" RequiredFieldType="数据校验"></cc1:textbox>
 		</td>
 		<td class="vtop">请在相关字段中设置有效的值(正数为增加量字段值,负数为减少量)</td>
 	</tr>
 	<tr><td class="item_title" colspan="2"><asp:Literal id="extcredits5name" runat="server" Text="extcredits5"></asp:Literal></td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="extcredits5" runat="server" Width="64px" RequiredFieldType="数据校验"></cc1:TextBox>
+			 <cc1:textbox id="extcredits5" runat="server" Width="64px" RequiredFieldType="数据校验"></cc1:textbox>
 		</td>
 		<td class="vtop">请在相关字段中设置有效的值(正数为增加量字段值,负数为减少量)</td>
 	</tr>
 	<tr><td class="item_title" colspan="2"><asp:Literal id="extcredits6name" runat="server" Text="extcredits6"></asp:Literal></td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="extcredits6" runat="server" Width="64px" RequiredFieldType="数据校验"></cc1:TextBox>
+			<cc1:textbox id="extcredits6" runat="server" Width="64px" RequiredFieldType="数据校验"></cc1:textbox>
 		</td>
 		<td class="vtop">请在相关字段中设置有效的值(正数为增加量字段值,负数为减少量)</td>
 	</tr>
 	<tr><td class="item_title" colspan="2"><asp:Literal id="extcredits7name" runat="server" Text="extcredits7"></asp:Literal></td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="extcredits7" runat="server" Width="64px" RequiredFieldType="数据校验"></cc1:TextBox>
+			 <cc1:textbox id="extcredits7" runat="server" Width="64px" RequiredFieldType="数据校验"></cc1:textbox>
 		</td>
 		<td class="vtop">请在相关字段中设置有效的值(正数为增加量字段值,负数为减少量)</td>
 	</tr>
 	<tr><td class="item_title" colspan="2"><asp:Literal id="extcredits8name" runat="server" Text="extcredits8"></asp:Literal></td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="extcredits8" runat="server" Width="64px" RequiredFieldType="数据校验"></cc1:TextBox>
+			 <cc1:textbox id="extcredits8" runat="server" Width="64px" RequiredFieldType="数据校验"></cc1:textbox>
 		</td>
 		<td class="vtop">请在相关字段中设置有效的值(正数为增加量字段值,负数为减少量)</td>
 	</tr>

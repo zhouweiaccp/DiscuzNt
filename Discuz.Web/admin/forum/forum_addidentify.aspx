@@ -19,7 +19,7 @@
 	<tr><td class="item_title" colspan="2">名称</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="name" runat="server" CanBeNull="必填" Text="" MaxLength="50" Size="20"></cc1:TextBox>
+			<cc1:textbox id="name" runat="server" CanBeNull="必填" Text="" MaxLength="50" Size="20"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>

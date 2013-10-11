@@ -44,7 +44,7 @@
 	<tr><td class="item_title" colspan="2">发帖用户名</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="poster" runat="server" RequiredFieldType="暂无校验" width="200"></cc1:TextBox> 
+			<cc1:textbox id="poster" runat="server" RequiredFieldType="暂无校验" width="200"></cc1:textbox> 
 			&nbsp;<input id="lowerupper" type="checkbox" CHECKED value="1" name="lowerupper" runat="server">  不区分大小写
 		</td>
 		<td class="vtop">多用户名中间请用半角逗号 "," 分割</td>
@@ -52,14 +52,14 @@
 	<tr><td class="item_title" colspan="2">发帖 IP</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="Ip" runat="server" RequiredFieldType="暂无校验" Width="150"></cc1:TextBox>
+			<cc1:textbox id="Ip" runat="server" RequiredFieldType="暂无校验" Width="150"></cc1:textbox>
 		</td>
 		<td class="vtop">通配符 "*" 如 "127.0.*.*", 慎用!</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">内容关键字</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="message" runat="server" RequiredFieldType="暂无校验"  width="200"></cc1:TextBox>
+			 <cc1:textbox id="message" runat="server" RequiredFieldType="暂无校验"  width="200"></cc1:textbox>
 		</td>
 		<td class="vtop">多关键字中间请用半角逗号 "," 分割</td>
 	</tr>

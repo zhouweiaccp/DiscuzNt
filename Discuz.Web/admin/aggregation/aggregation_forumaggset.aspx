@@ -59,7 +59,7 @@
 	<tr style=" display:none;"><td class="item_title" colspan="2">显示主题条数</td></tr>
 	<tr style=" display:none;">
 		<td class="vtop rowform">
-			 <cc1:TextBox id="topnumber" runat="server" Width="40" MaxLength="2" RequiredFieldType="数据校验"></cc1:TextBox>
+			 <cc1:textbox id="topnumber" runat="server" Width="40" MaxLength="2" RequiredFieldType="数据校验"></cc1:textbox>
 		</td>
 		<td class="vtop">当显示方式为"按版块列表显示"时, 则当前文本框数据无效!</td>
 	</tr>
@@ -86,14 +86,14 @@
 	<tr><td class="item_title" colspan="2">原帖作者</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="poster" runat="server" Width="150px" RequiredFieldType="暂无校验"></cc1:TextBox>
+			<cc1:textbox id="poster" runat="server" Width="150px" RequiredFieldType="暂无校验"></cc1:textbox>
 		</td>
 		<td class="vtop">多个用户名之间请用半角逗号"," 分割</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">标题关键字</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="title" runat="server" Width="150px" RequiredFieldType="暂无校验"></cc1:TextBox>
+			<cc1:textbox id="title" runat="server" Width="150px" RequiredFieldType="暂无校验"></cc1:textbox>
 		</td>
 		<td class="vtop">多关键字之间请用半角逗号 "," 分割</td>
 	</tr>

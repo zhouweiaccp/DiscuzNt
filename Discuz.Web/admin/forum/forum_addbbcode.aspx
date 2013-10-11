@@ -65,7 +65,7 @@
 	<tr><td class="item_title" colspan="2">参数个数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="param" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" size="3"></cc1:TextBox>
+			<cc1:textbox id="param" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" size="3"></cc1:textbox>
 		</td>
 		<td class="vtop">本代码中使用到的动态参数个数</td>
 	</tr>

@@ -1,0 +1,5 @@
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\bin\Discuz.Event.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Web\bin\Discuz.Event.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Event\obj\Debug\Discuz.Event.csprojResolveAssemblyReference.cache
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Event\obj\Debug\Discuz.Event.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Event\obj\Debug\Discuz.Event.pdb

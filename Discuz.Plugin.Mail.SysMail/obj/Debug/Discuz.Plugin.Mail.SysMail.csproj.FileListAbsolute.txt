@@ -1,0 +1,14 @@
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Plugin.Mail.SysMail.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Plugin.Mail.SysMail.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Common.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Plugin.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Entity.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Config.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\bin\Debug\Newtonsoft.Json.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Common.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Plugin.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Entity.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\bin\Debug\Discuz.Config.pdb
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\obj\Debug\Discuz.Plugin.Mail.SysMail.csprojResolveAssemblyReference.cache
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\obj\Debug\Discuz.Plugin.Mail.SysMail.dll
+G:\wei\百度云\TDownLoad\GitHub\DiscuzNt\Discuz.Plugin.Mail.SysMail\obj\Debug\Discuz.Plugin.Mail.SysMail.pdb

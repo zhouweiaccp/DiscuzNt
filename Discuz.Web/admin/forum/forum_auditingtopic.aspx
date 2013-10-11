@@ -28,21 +28,21 @@
 	<tr><td class="item_title" colspan="2">原帖作者</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="poster" runat="server" Width="150px" RequiredFieldType="暂无校验"></cc1:TextBox>
+			<cc1:textbox id="poster" runat="server" Width="150px" RequiredFieldType="暂无校验"></cc1:textbox>
 		</td>
 		<td class="vtop">多个用户名之间请用半角逗号 "," 分割</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">标题关键字</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="title" runat="server" Width="150px" RequiredFieldType="暂无校验"></cc1:TextBox>
+			<cc1:textbox id="title" runat="server" Width="150px" RequiredFieldType="暂无校验"></cc1:textbox>
 		</td>
 		<td class="vtop">多关键字之间请用半角逗号 "," 分割</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">删帖管理员</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="moderatorname" runat="server" Width="150px" RequiredFieldType="暂无校验"></cc1:TextBox>
+			<cc1:textbox id="moderatorname" runat="server" Width="150px" RequiredFieldType="暂无校验"></cc1:textbox>
 		</td>
 		<td class="vtop">多关键字之间请用半角逗号 "," 分割</td>
 	</tr>
@@ -73,7 +73,7 @@
 	<tr><td class="item_title" colspan="2">清空多少天以前的回收站主题</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="RecycleDay" runat="server" RequiredFieldType="数据校验" Text="30" Size="5"/>天前
+			<cc1:textbox ID="RecycleDay" runat="server" RequiredFieldType="数据校验" Text="30" Size="5"/>天前
 		</td>
 		<td class="vtop">0 为清空全部</td>
 	</tr>

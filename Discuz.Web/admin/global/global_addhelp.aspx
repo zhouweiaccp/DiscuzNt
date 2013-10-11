@@ -32,7 +32,7 @@
 	<tr><td class="item_title" colspan="2">帮助标题</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			  <cc1:TextBox id="title" runat="server" CanBeNull="必填" RequiredFieldType="暂无校验"  maxlength="249" size="60"></cc1:TextBox>
+			  <cc1:textbox id="title" runat="server" CanBeNull="必填" RequiredFieldType="暂无校验"  maxlength="249" size="60"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
@@ -55,7 +55,7 @@
 	<tr><td class="item_title" colspan="2">发布者用户名</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="poster" runat="server" RequiredFieldType="暂无校验" CanBeNull="必填" MaxLength="20" Enabled="false"></cc1:TextBox>
+			 <cc1:textbox id="poster" runat="server" RequiredFieldType="暂无校验" CanBeNull="必填" MaxLength="20" Enabled="false"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>

@@ -42,7 +42,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">用户组名称</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="groupTitle" runat="server" CanBeNull="必填" RequiredFieldType="暂无校验" width="180"  MaxLength="50"></cc1:TextBox>
+			 <cc1:textbox id="groupTitle" runat="server" CanBeNull="必填" RequiredFieldType="暂无校验" width="180"  MaxLength="50"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
@@ -56,7 +56,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">星星数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="stars" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:TextBox>
+			<cc1:textbox id="stars" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:textbox>
 			<asp:RegularExpressionValidator id="RegularExpressionValidator2" runat="server" ControlToValidate="stars" ErrorMessage="请输入正整数或者零" ValidationExpression="^[0-9]*$">
             </asp:RegularExpressionValidator>
 		</td>
@@ -65,7 +65,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">签名最多字节</td></tr>
 	<tr>
 		<td class="vtop rowform">
-		<cc1:TextBox id="maxsigsize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5"  MaxLength="4"></cc1:TextBox>
+		<cc1:textbox id="maxsigsize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5"  MaxLength="4"></cc1:textbox>
 		<asp:RegularExpressionValidator id="RegularExpressionValidator4" runat="server" ControlToValidate="maxsigsize" ErrorMessage="请输入正整数或者零" ValidationExpression="^[0-9]*$">
         </asp:RegularExpressionValidator>
 		</td>
@@ -74,7 +74,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">阅读权限</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="readaccess" runat="server"  CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:TextBox>
+			<cc1:textbox id="readaccess" runat="server"  CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:textbox>
 			<asp:RegularExpressionValidator id="RegularExpressionValidator1" runat="server" ControlToValidate="readaccess" ErrorMessage="请输入整数" ValidationExpression="^[-]?\d+\d*$">
             </asp:RegularExpressionValidator>
 		</td>
@@ -83,7 +83,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">短消息最多条数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="maxpmnum" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5"  MaxLength="4"></cc1:TextBox>
+			<cc1:textbox id="maxpmnum" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5"  MaxLength="4"></cc1:textbox>
 			<asp:RegularExpressionValidator id="homephone" runat="server" ControlToValidate="maxpmnum" ErrorMessage="请输入正整数或者零" ValidationExpression="^[0-9]*$">
 			</asp:RegularExpressionValidator>
 		</td>
@@ -92,7 +92,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">好友人数上限</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox ID="maxfriendscount" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:TextBox>
+			<cc1:textbox ID="maxfriendscount" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:textbox>
 			<asp:RegularExpressionValidator ID="RegularExpressionValidator6" runat="SERVER" ControlToValidate="maxfriendscount"
 				ErrorMessage="请输入正整数或者零" ValidationExpression="^[0-9]*$">
 			</asp:RegularExpressionValidator>
@@ -102,7 +102,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">主题(附件)最高售价</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="maxprice" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:TextBox>
+			<cc1:textbox id="maxprice" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="5" MaxLength="4"></cc1:textbox>
 			<asp:RegularExpressionValidator id="RegularExpressionValidator3" runat="server" ControlToValidate="maxprice" ErrorMessage="请输入正整数或者零" ValidationExpression="^[0-9]*$">
             </asp:RegularExpressionValidator>
 		</td>
@@ -111,7 +111,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">论坛每天允许上传附件总字节数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="maxsizeperday" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10"  MaxLength="9"></cc1:TextBox>(单位:字节)
+			<cc1:textbox id="maxsizeperday" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10"  MaxLength="9"></cc1:textbox>(单位:字节)
 			<select onchange="document.getElementById('TabControl1_tabPage51_maxsizeperday').value=this.value">
 				<option value="">请选择</option>
 				<option value="51200">50K</option>
@@ -150,7 +150,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">上传单个附件允许的最大字节数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="maxattachsize" runat="server"  CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10"  MaxLength="9"></cc1:TextBox>(单位:字节)
+			<cc1:textbox id="maxattachsize" runat="server"  CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10"  MaxLength="9"></cc1:textbox>(单位:字节)
 			<select onchange="document.getElementById('TabControl1_tabPage51_maxattachsize').value=this.value">
 				<option value="">请选择</option>
 				<option value="51200">50K</option>
@@ -176,7 +176,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">个人空间附件总字节数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="maxspaceattachsize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10"  MaxLength="9"></cc1:TextBox>(单位:字节)
+			<cc1:textbox id="maxspaceattachsize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10"  MaxLength="9"></cc1:textbox>(单位:字节)
 			<select onchange="document.getElementById('TabControl1_tabPage51_maxspaceattachsize').value=this.value">
 				<option value="">请选择</option>
 				<option value="51200">50K</option>
@@ -217,7 +217,7 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">相册空间总字节数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="maxspacephotosize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10"  MaxLength="9"></cc1:TextBox>(单位:字节)
+			<cc1:textbox id="maxspacephotosize" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" Size="10"  MaxLength="9"></cc1:textbox>(单位:字节)
 			<select onchange="document.getElementById('TabControl1_tabPage51_maxspacephotosize').value=this.value">
 				<option value="">请选择</option>
 				<option value="51200">50K</option>
@@ -314,21 +314,21 @@ function resetPage()
 	<tr><td class="item_title" colspan="2">积分下限</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="creditshigher" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" width="100"></cc1:TextBox>
+			<cc1:textbox id="creditshigher" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" width="100"></cc1:textbox>
 		</td>
 		<td class="vtop">.</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">积分上限</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="creditslower" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" width="100"></cc1:TextBox>
+			<cc1:textbox id="creditslower" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" width="100"></cc1:textbox>
 		</td>
 		<td class="vtop">.</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">用户组头像</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="groupavatar" runat="server" RequiredFieldType="暂无校验" width="80%"></cc1:TextBox>
+			<cc1:textbox id="groupavatar" runat="server" RequiredFieldType="暂无校验" width="80%"></cc1:textbox>
 		</td>
 		<td class="vtop">.</td>
 	</tr>

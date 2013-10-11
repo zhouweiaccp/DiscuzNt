@@ -61,7 +61,7 @@
 	<tr><td class="item_title" colspan="2">管理记录保留时间</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="maxmodworksmonths" runat="server" CanBeNull="必填" RequiredFieldType="数据校验"  Size="6" MaxLength="4"></cc1:TextBox>(单位:月)
+			 <cc1:textbox id="maxmodworksmonths" runat="server" CanBeNull="必填" RequiredFieldType="数据校验"  Size="6" MaxLength="4"></cc1:textbox>(单位:月)
 		</td>
 		<td class="vtop">系统中保留管理记录的时间,默认为 3 个月,建议在 3～6 个月的范围内取值</td>
 	</tr>
@@ -78,21 +78,21 @@
 	<tr><td class="item_title" colspan="2">每页主题数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="tpp" runat="server" RequiredFieldType="数据校验" CanBeNull="必填" Size="6" MaxLength="4"></cc1:TextBox>
+			 <cc1:textbox id="tpp" runat="server" RequiredFieldType="数据校验" CanBeNull="必填" Size="6" MaxLength="4"></cc1:textbox>
 		</td>
 		<td class="vtop">版块每页显示的主题数</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">热门话题最低帖数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="hottopic" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Size="6" MaxLength="4"></cc1:TextBox>
+			 <cc1:textbox id="hottopic" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Size="6" MaxLength="4"></cc1:textbox>
 		</td>
 		<td class="vtop">超过一定帖子数的话题将显示为热门话题</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">每页帖子数</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="ppp" runat="server" RequiredFieldType="数据校验" CanBeNull="必填" Size="6" MaxLength="4"></cc1:TextBox>
+			 <cc1:textbox id="ppp" runat="server" RequiredFieldType="数据校验" CanBeNull="必填" Size="6" MaxLength="4"></cc1:textbox>
 		</td>
 		<td class="vtop">看主题时每页帖子数</td>
 	</tr>
@@ -109,7 +109,7 @@
 	<tr><td class="item_title" colspan="2">首页显示热门标签(Tag)数量设置</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="hottagcount" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" MinimumValue="0" MaximumValue="60" Size="6" MaxLength="2"></cc1:TextBox>
+			<cc1:textbox id="hottagcount" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" MinimumValue="0" MaximumValue="60" Size="6" MaxLength="2"></cc1:textbox>
 		</td>
 		<td class="vtop">取值范围为0~60.如果取值为0,则关闭首页热门标签(Tag)的显示</td>
 	</tr>
@@ -138,7 +138,7 @@
 	<tr><td class="item_title" colspan="2">删帖不减积分时间期限</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="losslessdel" runat="server" Text="5" RequiredFieldType="数据校验"  CanBeNull="必填" Size="5" MaxLength="4"></cc1:TextBox>(单位:天)
+			<cc1:textbox id="losslessdel" runat="server" Text="5" RequiredFieldType="数据校验"  CanBeNull="必填" Size="5" MaxLength="4"></cc1:textbox>(单位:天)
 		</td>
 		<td class="vtop">设置版主或管理员从前台删除发表于多少天以前的帖子时, 不更新用户积分, 可用于清理老帖子而不对作者积分造成损失. 0 为不使用此功能, 始终更新用户积分</td>
 	</tr>
@@ -155,7 +155,7 @@
 	<tr><td class="item_title" colspan="2">星星升级阀值</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="starthreshold" runat="server" CanBeNull="必填" RequiredFieldType="数据校验"  Size="6" MaxLength="4"></cc1:TextBox>
+			<cc1:textbox id="starthreshold" runat="server" CanBeNull="必填" RequiredFieldType="数据校验"  Size="6" MaxLength="4"></cc1:textbox>
 		</td>
 		<td class="vtop">N 个星星显示为 1 个月亮、N 个月亮显示为 1 个太阳. 默认值为 2, 如设为 0 则取消此项功能, 始终以星星显示</td>
 	</tr>
@@ -173,11 +173,11 @@
 	<tr><td class="item_title" colspan="2">评分等级</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="ratevalveset1" runat="server" CanBeNull="必填" Size="3" MaxLength="3"></cc1:TextBox> <script type="text/javascript">document.write(ratevalveimg(1));</script><br />
-		                        <cc1:TextBox id="ratevalveset2" runat="server" CanBeNull="必填" Size="3" MaxLength="3"></cc1:TextBox> <script type="text/javascript">document.write(ratevalveimg(2));</script><br />
-		                        <cc1:TextBox id="ratevalveset3" runat="server" CanBeNull="必填" Size="3" MaxLength="3"></cc1:TextBox> <script type="text/javascript">document.write(ratevalveimg(3));</script><br />
-		                        <cc1:TextBox id="ratevalveset4" runat="server" CanBeNull="必填" Size="3" MaxLength="3"></cc1:TextBox> <script type="text/javascript">document.write(ratevalveimg(4));</script><br />
-		                        <cc1:TextBox id="ratevalveset5" runat="server" CanBeNull="必填" Size="3" MaxLength="3"></cc1:TextBox> <script type="text/javascript">document.write(ratevalveimg(5));</script>
+			<cc1:textbox id="ratevalveset1" runat="server" CanBeNull="必填" Size="3" MaxLength="3"></cc1:textbox> <script type="text/javascript">document.write(ratevalveimg(1));</script><br />
+		                        <cc1:textbox id="ratevalveset2" runat="server" CanBeNull="必填" Size="3" MaxLength="3"></cc1:textbox> <script type="text/javascript">document.write(ratevalveimg(2));</script><br />
+		                        <cc1:textbox id="ratevalveset3" runat="server" CanBeNull="必填" Size="3" MaxLength="3"></cc1:textbox> <script type="text/javascript">document.write(ratevalveimg(3));</script><br />
+		                        <cc1:textbox id="ratevalveset4" runat="server" CanBeNull="必填" Size="3" MaxLength="3"></cc1:textbox> <script type="text/javascript">document.write(ratevalveimg(4));</script><br />
+		                        <cc1:textbox id="ratevalveset5" runat="server" CanBeNull="必填" Size="3" MaxLength="3"></cc1:textbox> <script type="text/javascript">document.write(ratevalveimg(5));</script>
 		</td>
 		<td class="vtop"></td>
 	</tr>
@@ -215,7 +215,7 @@
 	<tr><td class="item_title" colspan="2">查看新帖时间(分钟)</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="viewnewtopicminute" runat="server" Size="5" MaxLength="5" MinimumValue="5" MaximumValue="14400"></cc1:TextBox>		</td>
+			<cc1:textbox id="viewnewtopicminute" runat="server" Size="5" MaxLength="5" MinimumValue="5" MaximumValue="14400"></cc1:textbox>		</td>
 		<td class="vtop">设置多长时间内发布的帖子算是新帖</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">开启直接/快速跳转</td></tr>
@@ -249,7 +249,7 @@
     <tr><td class="item_title" colspan="2">RSS TTL(单位:分钟)</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="rssttl" runat="server"  CanBeNull="必填" MinimumValue="0" Size="5" MaxLength="4"></cc1:TextBox>		</td>
+			<cc1:textbox id="rssttl" runat="server"  CanBeNull="必填" MinimumValue="0" Size="5" MaxLength="4"></cc1:textbox>		</td>
 		<td class="vtop">TTL(Time to Live) 是 RSS 2.0 的一项属性, 用于控制订阅内容的自动刷新时间, 时间越短则资料实时性就越高, 但会加重服务器负担, 通常可设置为 30～180 范围内的数值</td>
 	</tr>
     	<tr><td class="item_title" colspan="2">是否记录缓存日志</td></tr>

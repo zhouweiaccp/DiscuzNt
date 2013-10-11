@@ -42,22 +42,22 @@ checkedEnabledButton(form,'uid','SelectPass','SelectDelete');
 	<tr><td class="item_title" colspan="2">用户名</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			  <cc1:TextBox id="searchusername" runat="server" Width="120px"></cc1:TextBox>
+			  <cc1:textbox id="searchusername" runat="server" Width="120px"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
 	<tr><td class="item_title" colspan="2">注册时间于多少天前</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			  <cc1:TextBox id="regbefore" runat="server" RequiredFieldType="数据校验" Width="50px"></cc1:TextBox>
+			  <cc1:textbox id="regbefore" runat="server" RequiredFieldType="数据校验" Width="50px"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
 	<tr><td class="item_title" colspan="2">注册 IP 开头 (如 192.168)</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="regip" runat="server" Width="100px" 			ValidationExpression="^(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9])(\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0))*(\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0))*(\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[0-9]))*$" RequiredFieldType="IP地址" >
-			</cc1:TextBox>
+			 <cc1:textbox id="regip" runat="server" Width="100px" 			ValidationExpression="^(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9])(\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0))*(\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0))*(\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[0-9]))*$" RequiredFieldType="IP地址" >
+			</cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>

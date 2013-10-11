@@ -153,7 +153,7 @@
 	<tr><td class="item_title" colspan="2">显示顺序</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="displayorder" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" MultiLine="true" MaxLength="7"></cc1:TextBox>
+			<cc1:textbox id="displayorder" runat="server" CanBeNull="必填" RequiredFieldType="数据校验" Text="0" MultiLine="true" MaxLength="7"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
@@ -174,7 +174,7 @@
 	<tr><td class="item_title" colspan="2">广告标题</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="title" runat="server" RequiredFieldType="暂无校验" CanBeNull="必填" Size="60" MaxLength="50"></cc1:TextBox>
+			 <cc1:textbox id="title" runat="server" RequiredFieldType="暂无校验" CanBeNull="必填" Size="60" MaxLength="50"></cc1:textbox>
 		</td>
 		<td class="vtop">广告标题只为识别辨认不同广告条目之用, 并不在广告中显示</td>
 	</tr>
@@ -219,8 +219,8 @@
 			<img src="../images/zoomin.gif" onclick="AddWith(100)" style="cursor:hand"/>
 			<img src="../images/zoomout.gif" onclick="AddWith(-100)"  style="cursor:hand" />
 		</div>
-		<cc1:TextBox id="code" runat="server"  Rows="4" IsReplaceInvertedComma="false" HintTitle="提示" HintInfo="请直接输入需要展现的广告的 html 代码" 
-			RequiredFieldType="暂无校验" CanBeNull="可为空"  TextMode="MultiLine" width="70%" Height="150" HintLeftOffSet="50"></cc1:TextBox>
+		<cc1:textbox id="code" runat="server"  Rows="4" IsReplaceInvertedComma="false" HintTitle="提示" HintInfo="请直接输入需要展现的广告的 html 代码" 
+			RequiredFieldType="暂无校验" CanBeNull="可为空"  TextMode="MultiLine" width="70%" Height="150" HintLeftOffSet="50"></cc1:textbox>
 		</td>
 	</tr>
 	</tbody>
@@ -228,21 +228,21 @@
 	<tr><td class="item_title" colspan="2">文字内容</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="wordcontent" runat="server" RequiredFieldType="暂无校验" CanBeNull="可为空"></cc1:TextBox>
+			<cc1:textbox id="wordcontent" runat="server" RequiredFieldType="暂无校验" CanBeNull="可为空"></cc1:textbox>
 		</td>
 		<td class="vtop">请输入文字广告的显示内容</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">文字大小</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="wordfont" runat="server" RequiredFieldType="暂无校验" CanBeNull="可为空"></cc1:TextBox>
+			<cc1:textbox id="wordfont" runat="server" RequiredFieldType="暂无校验" CanBeNull="可为空"></cc1:textbox>
 		</td>
 		<td class="vtop">请输入文字广告的内容显示字体, 可使用 pt、px、em 为单位</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">文字链接</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="wordlink" runat="server" RequiredFieldType="暂无校验"  CanBeNull="可为空" Text=""></cc1:TextBox>
+			 <cc1:textbox id="wordlink" runat="server" RequiredFieldType="暂无校验"  CanBeNull="可为空" Text=""></cc1:textbox>
 		</td>
 		<td class="vtop">请输入文字广告指向的 URL 链接地址, 以http://开头</td>
 	</tr>
@@ -251,35 +251,35 @@
 	<tr><td class="item_title" colspan="2">广告链接地址</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="imglink" runat="server" RequiredFieldType="暂无校验" CanBeNull="可为空" Text=""></cc1:TextBox>
+			 <cc1:textbox id="imglink" runat="server" RequiredFieldType="暂无校验" CanBeNull="可为空" Text=""></cc1:textbox>
 		</td>
 		<td class="vtop">请输入图片广告指向的 URL 链接地址, 以http://开头</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">图片地址</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="imgsrc" runat="server" RequiredFieldType="暂无校验" CanBeNull="可为空" Text=""></cc1:TextBox>
+			<cc1:textbox id="imgsrc" runat="server" RequiredFieldType="暂无校验" CanBeNull="可为空" Text=""></cc1:textbox>
 		</td>
 		<td class="vtop">请输入图片广告的图片调用地址, 以http://开头 建议选择640px * 130px的图片</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">图片替换文字</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="imgtitle" runat="server" RequiredFieldType="暂无校验" CanBeNull="可为空"></cc1:TextBox>
+			 <cc1:textbox id="imgtitle" runat="server" RequiredFieldType="暂无校验" CanBeNull="可为空"></cc1:textbox>
 		</td>
 		<td class="vtop">请输入图片广告的鼠标悬停文字信息</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">图片宽度</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="imgwidth" runat="server" RequiredFieldType="数据校验" CanBeNull="可为空" ></cc1:TextBox>px
+			<cc1:textbox id="imgwidth" runat="server" RequiredFieldType="数据校验" CanBeNull="可为空" ></cc1:textbox>px
 		</td>
 		<td class="vtop">请输入图片广告的宽度, 单位为像素</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">图片高度</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="imgheight" runat="server" RequiredFieldType="数据校验" CanBeNull="可为空"></cc1:TextBox>px
+			<cc1:textbox id="imgheight" runat="server" RequiredFieldType="数据校验" CanBeNull="可为空"></cc1:textbox>px
 		</td>
 		<td class="vtop">请输入图片广告的高度, 单位为像素</td>
 	</tr>
@@ -288,21 +288,21 @@
 	<tr><td class="item_title" colspan="2">Flash 宽度</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="flashwidth" runat="server" RequiredFieldType="数据校验" CanBeNull="可为空"></cc1:TextBox> px
+			<cc1:textbox id="flashwidth" runat="server" RequiredFieldType="数据校验" CanBeNull="可为空"></cc1:textbox> px
 		</td>
 		<td class="vtop">请输入 Flash 广告的宽度, 单位为像素</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">Flash 高度</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			 <cc1:TextBox id="flashheight" runat="server" RequiredFieldType="数据校验" CanBeNull="可为空"></cc1:TextBox> px
+			 <cc1:textbox id="flashheight" runat="server" RequiredFieldType="数据校验" CanBeNull="可为空"></cc1:textbox> px
 		</td>
 		<td class="vtop">请输入 Flash 广告的高度, 单位为像素</td>
 	</tr>
 	<tr><td class="item_title" colspan="2">Flash 地址</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="flashsrc" runat="server" RequiredFieldType="暂无校验"  CanBeNull="可为空" Text=""></cc1:TextBox>
+			<cc1:textbox id="flashsrc" runat="server" RequiredFieldType="暂无校验"  CanBeNull="可为空" Text=""></cc1:textbox>
 		</td>
 		<td class="vtop">请输入 Flash 广告的调用地址, 以http://开头</td>
 	</tr>

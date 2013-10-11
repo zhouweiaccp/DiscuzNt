@@ -38,21 +38,21 @@
 	<tr>
 		<td class="vtop rowform">
 			<input type="hidden" id="topicid" runat="server" />
-			<cc1:TextBox id="title" runat="server" RequiredFieldType="暂无校验" width="200"></cc1:TextBox>
+			<cc1:textbox id="title" runat="server" RequiredFieldType="暂无校验" width="200"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
 	<tr style="display:none"><td class="item_title" colspan="2">发帖人</td></tr>
 	<tr style="display:none">
 		<td class="vtop rowform">
-			<cc1:TextBox id="poster" runat="server" RequiredFieldType="暂无校验" width="200"></cc1:TextBox>
+			<cc1:textbox id="poster" runat="server" RequiredFieldType="暂无校验" width="200"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
 	<tr style="display:none"><td class="item_title" colspan="2">发帖时间</td></tr>
 	<tr style="display:none">
 		<td class="vtop rowform">
-			<cc1:TextBox id="postdatetime" runat="server" RequiredFieldType="暂无校验" width="200"></cc1:TextBox>
+			<cc1:textbox id="postdatetime" runat="server" RequiredFieldType="暂无校验" width="200"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>

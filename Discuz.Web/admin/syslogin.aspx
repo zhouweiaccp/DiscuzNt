@@ -25,8 +25,9 @@ if(top.location!=self.location)
 			<li class="LoginTop"><img src="images/login-top.gif"/></li>
 			<li class="FormNav">
 				<dl>
-					<dt><label>用户名:</label><cc1:textbox id="UserName" runat="server" RequiredFieldType="暂无校验" Text="z" size="25" ></cc1:textbox></dt>
-					<dd><label>密　码:</label><cc1:textbox id="PassWord" runat="server" RequiredFieldType="暂无校验" Text="" TextMode="Password" size="20"></cc1:textbox>
+                    
+					<dt><label>用户名:</label><cc1:TextBox id="UserName" runat="server" RequiredFieldType="暂无校验" Text="" size="25" ></cc1:TextBox></dt>
+					<dd><label>密　码:</label><cc1:TextBox id="PassWord" runat="server" RequiredFieldType="暂无校验" Text="" TextMode="Password" size="20"></cc1:TextBox>
 					<dd><label>验证码:</label><input class="txt" id="vcode" onkeydown="if(event.keyCode==13)  document.getElementById('login').focus();" type="text" size="6" name="vcode" autocomplete="off"> <img id="vcodeimg" style="cursor:hand" onclick="this.src='../tools/VerifyImagePage.aspx?time=' + Math.random()" title="点击刷新验证码" align="absMiddle" src="" />
 					<script type="text/javascript">
                         document.getElementById('vcodeimg').src='../tools/VerifyImagePage.aspx?id=<%=olid.ToString()%>&time=' + Math.random();

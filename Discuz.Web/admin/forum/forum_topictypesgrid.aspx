@@ -30,7 +30,7 @@ function Check(form)
 	<tr>
 		<td style="width: 80px">主题分类名:</td>
 		<td style="width:150px">
-			<cc1:TextBox ID="topictypename" runat="server" RequiredFieldType="暂无校验" Width="100"></cc1:TextBox>
+			<cc1:textbox ID="topictypename" runat="server" RequiredFieldType="暂无校验" Width="100"></cc1:textbox>
 		</td>
 		<td><cc1:Button ID="Search" runat="server" Text="开始搜索"></cc1:Button></td>
 	</tr>

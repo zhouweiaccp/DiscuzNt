@@ -17,7 +17,7 @@
 	<tr><td class="item_title" colspan="2">名称</td></tr>
 	<tr>
 		<td class="vtop rowform">
-			<cc1:TextBox id="name" runat="server" RequiredFieldType="暂无校验" CanBeNull="必填" Width="80%"></cc1:TextBox>
+			<cc1:textbox id="name" runat="server" RequiredFieldType="暂无校验" CanBeNull="必填" Width="80%"></cc1:textbox>
 		</td>
 		<td class="vtop"></td>
 	</tr>
